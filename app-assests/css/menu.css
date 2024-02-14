@@ -1,0 +1,13 @@
+.head{
+  font-size: 40px;
+}
+@media (max-width: 767px) { 
+  .brand-img{
+    height: 180px;
+  }
+ }
+ @media (max-width: 992px) { 
+  head{
+    font-size: 25px;
+  }
+ }

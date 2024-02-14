@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <link rel="icon" type="image/x-icon" href="/app-assests/img/logo-img/logo.png">
+  <title>Gracious Garments</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- footer -->
+  <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' />
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Include AOS CSS file from CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+<!-- Include AOS JavaScript file from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <link rel="stylesheet" href="app-assests/css/slider.css">
+  <link rel="stylesheet" href="app-assests/css/style.css">
+  <link rel="stylesheet" href="app-assests/css/footer.css">
+</head>
+
+<body class="bg-light">
+  <script>
+    AOS.init();
+  </script>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid" style="width: 95%; margin-right: 20px;">
+      <a class="navbar-brand" href="#">
+        <img src="app-assests/img/logo-img/logo.png" width="60px" height="70px" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="width: 90%; margin-left: 25%;">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active  mx-3" aria-current="page" href="index .html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  mx-3" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  mx-3" href="menu.html">Menu</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link  mx-3" href="#brands-cont">Brands</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-contact mx-3" href="edit cont.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="btn-cont">
+        <a href="login.html"><button id="loginBtn"type="button" class="btn btn-dark">Log in</button></a>
+      </div>
+    </div>
+  </nav>
+
+    <!-- slider -->
+    <div data-aos="fade-up">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner h-100 ">
+        <div class="carousel-item active h-sm-100">
+          <video controls width="100%" autoplay muted>
+            <source src="app-assests/img/home-slider/home-slider-video/slider-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="carousel-item h-sm-100">
+          <img src="app-assests/img/home-slider/home-slider-img/img1.webp" height="200px" class="d-block w-100"
+            alt="...">
+        </div>
+        <div class="carousel-item h-sm-100">
+          <img src="app-assests/img/home-slider/home-slider-img/img2.jpeg" height="200px"
+            class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+    <!-- slider-end -->
+    <!-- multiple-images-slider start -->
+    <div data-aos="fade-up">
+   <section class="web mx-5" >
+        <div class="row">
+        <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+          <div class="MultiCarousel-inner">
+            <div class="item">
+              <img class="hr"
+                src="https://cdn.shopify.com/s/files/1/2635/3244/files/DSC02597_c1ad8f34-736f-42a7-bb4e-b830d18bd356_330x.jpg?v=1702029346"
+                height="230px" width="186px">
+            </div>
+            <div class="item">
+              <img  class="hr" src="https://cdn.shopify.com/s/files/1/2635/3244/products/V0124-BDL_330x.jpg?v=1669458433"
+                height="230px" width="186px" alt="">
+            </div>
+            <div class="item">
+              <img  class="hr"
+                src="https://cdn.shopify.com/s/files/1/2635/3244/products/V0326_12853751-18da-42b5-9861-ad349ed279f1_330x.jpg?v=1669116594"
+                height="230px" width="186px" alt="">
+            </div>
+            <div class="item">
+              <img  class="hr"
+                src="https://cdn.shopify.com/s/files/1/2635/3244/files/DSC02471_96e5e2b4-5da7-41ed-b3d7-61f64b410234_330x.jpg?v=1701428255"
+                height="230px" width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr"
+                src="https://www.limelight.pk/cdn/shop/files/DSC08308_4dd46d5a-35f3-4c01-8357-ea4be3d5f9e0_330x.jpg?v=1701163375"
+                height="230px" width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr" src="https://www.limelight.pk/cdn/shop/files/DSC07817_330x.jpg?v=1700636571" height="230px"
+                width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr" src="https://www.limelight.pk/cdn/shop/files/DSC03850_330x.jpg?v=1697280994" height="230px"
+                width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr" src="https://www.limelight.pk/cdn/shop/files/DSC04021_330x.jpg?v=1697278222" height="230px"
+                width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr" src="https://www.limelight.pk/cdn/shop/files/DSC04105_330x.jpg?v=1697434359" height="230px"
+                width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr" src="https://www.limelight.pk/cdn/shop/files/DSC03875_330x.jpg?v=1697280844" height="230px"
+                width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr" src="https://www.limelight.pk/cdn/shop/files/DSC03330_1_330x.jpg?v=1704113326" height="230px"
+                width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr"
+                src="https://www.limelight.pk/cdn/shop/files/DSC09252_fa8b90bd-2d7a-4fbf-a244-a4d2a0c658ab_330x.jpg?v=1704101537"
+                height="230px" width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr" src="https://www.limelight.pk/cdn/shop/files/DSC09406_330x.jpg?v=1704099406" height="230px"
+                width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr" src="https://www.limelight.pk/cdn/shop/files/DSC09379_330x.jpg?v=1704099656" height="230px"
+                width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr" src="https://www.limelight.pk/cdn/shop/files/4H2A6735_330x.jpg?v=1704699145" height="230px"
+                width="186px" alt="">
+            </div>
+            <div class="item">
+              <img class="hr" src="https://www.limelight.pk/cdn/shop/files/4H2A6887_330x.jpg?v=1704693805" height="230px"
+                width="186px" alt="">
+            </div>
+          </div>
+          <button class="btn btn-primary leftLst">
+              <button class="btn btn-primary rightLst"></button>
+        </div>
+      </div>
+   </section>
+  </div>
+      <!-- multiple-images-slider-end -->
+      <div data-aos="fade-up">
+      <div class=" home-main-seller row mx-auto my-4" style="width:95%; background-color: #4b4b4b;">
+        <div class="home-main-seller-img col-6 h-100 px-0">
+          <img src="https://lulusar.com/cdn/shop/files/passu-bestsellers_710x.jpg?v=1698996893" height="100%"
+            width="100%" alt="">
+        </div>
+        <div class="home-main-seller-txt d-flex justify-content-center align-content-center flex-wrap text-center col-6"
+          style=" color: white;">
+          <h2 class="fw-bold w-100">
+            Best Sellers
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eligendi quo Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Aut quod quas ipsa!
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+  <!-- footer -->
+  <hr class="hr-or">
+  <span class="span-or">or</span>
+  <hr class="hr-or">
+  <hr class="hr-or">
+  <footer class="nb-footer">
+    <div class="container" >
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="about">
+            <img src="images/logo.png" class="img-responsive center-block" alt="">
+            <p>Bootstrap Footer example snippets with CSS, Javascript and HTML. Code example of bootstrap-3 footer using
+              HTML, Javascript, jQuery, and CSS. 5 Beautiful and Responsive Footer Templates. Pin a fixed-height footer
+              to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
+
+            <div class="social-media">
+              <ul class="list-inline">
+                <li><a href="https://www.facebook.com/profile.php?id=61555798565848&mibextid=ZbWKwL" title=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/?lang=en" title=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox" title=""><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://pk.linkedin.com/" title=""><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="footer-info-single">
+            <h2 class="title">Help Center</h2>
+            <ul class="list-unstyled">
+              <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> How to
+                  Pay</a></li>
+              <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a>
+              </li>
+              <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Sitemap</a>
+              </li>
+              <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Delivery
+                  Info</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="footer-info-single">
+            <h2 class="title">Our Site Maps</h2>
+            <ul class="list-unstyled">
+              <li><a href="index .html" title=""><i class="fa fa-angle-double-right"></i> Home</a>
+              </li>
+              <li><a href="about.html" title=""><i class="fa fa-angle-double-right"></i> About Us</a>
+              </li>
+              <li><a href="menu.html" title=""><i class="fa fa-angle-double-right"></i> Menu</a></li>
+              <li><a href="brands.html" title=""><i class="fa fa-angle-double-right"></i> Brands</a></li>
+              <li><a href="edit cont.html" title=""><i class="fa fa-angle-double-right"></i> Contact
+                  Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="footer-info-single">
+            <h2 class="title">Security & privacy</h2>
+            <ul class="list-unstyled">
+              <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Terms Of
+                  Use</a></li>
+              <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Privacy
+                  Policy</a></li>
+              <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Return /
+                  Refund Policy</a></li>
+              <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Store
+                  Locations</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="footer-info-single">
+            <h2 class="title">Payment</h2>
+            <p>Sample HTML page with Twitter's Bootstrap. Code example of Easy Sticky Footer using HTML, Javascript,
+              jQuery, and CSS. This bootstrap tutorial covers all the major elements of responsive</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-sm-6">
+            <p>Copyright © 2024. Gracious Garments.</p>
+          </div>  
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- owl-carousel js link -->
+  <!-- bootstrap js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- multiple-images-slider-javascript -->
+  <Script>
+    $(document).ready(function () {
+      var itemsMainDiv = ('.MultiCarousel');
+      var itemsDiv = ('.MultiCarousel-inner');
+      var itemWidth = "";
+
+      $('.leftLst, .rightLst').click(function () {
+        var condition = $(this).hasClass("leftLst");
+        if (condition)
+          click(0, this);
+        else
+          click(1, this)
+      });
+
+      ResCarouselSize();
+
+
+
+
+      $(window).resize(function () {
+        ResCarouselSize();
+      });
+
+      //this function define the size of the items
+      function ResCarouselSize() {
+        var incno = 0;
+        var dataItems = ("data-items");
+        var itemClass = ('.item');
+        var id = 0;
+        var btnParentSb = '';
+        var itemsSplit = '';
+        var sampwidth = $(itemsMainDiv).width();
+        var bodyWidth = $('body').width();
+        $(itemsDiv).each(function () {
+          id = id + 1;
+          var itemNumbers = $(this).find(itemClass).length;
+          btnParentSb = $(this).parent().attr(dataItems);
+          itemsSplit = btnParentSb.split(',');
+          $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+          if (bodyWidth >= 1200) {
+            incno = itemsSplit[3];
+            itemWidth = sampwidth / incno;
+          }
+          else if (bodyWidth >= 992) {
+            incno = itemsSplit[2];
+            itemWidth = sampwidth / incno;
+          }
+          else if (bodyWidth >= 768) {
+            incno = itemsSplit[1];
+            itemWidth = sampwidth / incno;
+          }
+          else {
+            incno = itemsSplit[0];
+            itemWidth = sampwidth / incno;
+          }
+          $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+          $(this).find(itemClass).each(function () {
+            $(this).outerWidth(itemWidth);
+          });
+
+          $(".leftLst").addClass("over");
+          $(".rightLst").removeClass("over");
+
+        });
+      }
+
+
+      //this function used to move the items
+      function ResCarousel(e, el, s) {
+        var leftBtn = ('.leftLst');
+        var rightBtn = ('.rightLst');
+        var translateXval = '';
+        var divStyle = $(el + ' ' + itemsDiv).css('transform');
+        var values = divStyle.match(/-?[\d\.]+/g);
+        var xds = Math.abs(values[4]);
+        if (e == 0) {
+          translateXval = parseInt(xds) - parseInt(itemWidth * s);
+          $(el + ' ' + rightBtn).removeClass("over");
+
+          if (translateXval <= itemWidth / 2) {
+            translateXval = 0;
+            $(el + ' ' + leftBtn).addClass("over");
+          }
+        }
+        else if (e == 1) {
+          var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+          translateXval = parseInt(xds) + parseInt(itemWidth * s);
+          $(el + ' ' + leftBtn).removeClass("over");
+
+          if (translateXval >= itemsCondition - itemWidth / 2) {
+            translateXval = itemsCondition;
+            $(el + ' ' + rightBtn).addClass("over");
+          }
+        }
+        $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+      }
+
+      //It is used to get some elements from btn
+      function click(ell, ee) {
+        var Parent = "#" + $(ee).parent().attr("id");
+        var slide = $(Parent).attr("data-slide");
+        ResCarousel(ell, Parent, slide);
+      }
+
+    });
+  </script>
+  <!-- multiple-images-slider-javascript-end -->
+  <!-- home-end -->
+
+</body>
+
+</html>
